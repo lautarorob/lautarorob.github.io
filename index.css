@@ -1,0 +1,51 @@
+
+
+.perfil{
+    display: flex;
+    justify-content: center;
+}
+
+h1, p, li, h3, h4{
+    font-family: 'Roboto', sans-serif;
+}
+
+header i{
+    font-size: 20px;
+    margin-left:  18px;
+    align-self: center;
+}
+
+
+aside{
+    width: 350px;
+    height: max-content;
+    background-color: navy;
+    color: aliceblue;
+    float: left;
+    text-align: center;
+}
+
+aside p, li{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#transparencia{
+    color: grey;
+}
+
+section i{
+    font-size: 20px;
+    margin: 0 18px;
+    align-self: center;
+}
+
+.p-personales{
+    display: flex;
+    justify-content: left;
+}
+
+section p, li{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}

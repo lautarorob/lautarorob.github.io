@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae</title>
+    <link rel="stylesheet" href="css/index.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/bac009a103.js" crossorigin="anonymous"></script>
+    <style>
+       #info{
+        display: none;
+       } 
+    </style>
+</head>
+
+<body>
+<header>
+
+    <div class="perfil">
+        <h1 style="margin-bottom: 0px;">ADRIAN RUIZ</h1>
+    </div>
+    
+    <div class="perfil">
+        <i class="fa-solid fa-clipboard"></i>
+        <p>Programador Semi Senior</p>
+        <i class="fa-solid fa-location-dot"></i>
+        <p>Billings, Michigan, 8929</p>
+        <i class="fa-solid fa-phone"></i>
+        <p>(272) 790-0888</p>
+    </div>
+
+    </header>
+
+    <aside>
+        <img src="https://randomuser.me/api/portraits/men/60.jpg" alt="Foto de la persona">
+        <div>
+            <h3>DATOS PERSONALES</h3>
+            <li>Calle Valwood Pkwy</li> 
+            <p>Michigan, 8929</p>
+            <li>United States</li>
+            <li>(272) 790-0888</li>
+            <li>adrian.ruiz@example.com</li>
+        </div>
+        <div>
+            <p id="transparencia">Fecha/Lugar de nacimiento</p>
+            <li>1992/03/08</li>
+            <li>Michigan</li>
+        </div>
+        <div>
+            <p id="transparencia">Nacionalidad</p>
+            <li>US</li>
+        </div>
+
+        <div>
+            <h3>COMPETENCIAS</h3>
+            <li>Tecnicas de atencion al cliente</li>
+            <li>Gestion de proyectos</li>
+            <li>Resolucion de Tareas</li>
+        </div>
+    </aside>
+
+    <section>
+        <div class="p-personales">
+            <i class="fa-solid fa-user"></i>
+            <h3>PERFIL PERSONAL</h3>
+        </div>
+
+        <div>
+            <p>Trabajador compremetido y automotivado que aporta una valiosa experiencia y creatividad en el
+                sector y pasion por la programcion. Orientado en programcion full stack y destacado en
+                el trabajo en equipo para lograr objetivos. Experiencia en paginas web y experto en redes sociales.
+            </p>
+        </div>
+
+        <div class="p-personales">
+            <i class="fa-solid fa-briefcase"></i>
+            <h3>EXPERIENCIA LABORAL</h3>
+        </div>
+
+        <div>
+            <li>Puedo tomar un rol de lider si se lo requiere con resultados faborables para la compañia</li>
+            <li>Animo a mis compañeros a dar lo mejor de ellos y aumento su eficiencia</li>
+            <li>Identifico al maximo las oportunidades que se presentan y promuevo la vision de la compañia</li>
+            <li>Tengo experienciaen marketing y doy buena imagen en los campos que cubre la compañia</li>
+            <li>Capacidad de de intruir y capacitar a nuevos empleados</li>
+        </div>
+
+        <div class="p-personales">
+            <i class="fa-solid fa-star"></i>
+            <h3>Asistente del Programador Semi Senior</h3>
+        </div>
+
+        <button id="boton" onclick="mostrar();">Mostrar Mas</button>
+        <div id="info">
+            <li>Proporciono ayuda optima al semi senio</li>
+            <li>Gestiono tareas importantes</li>
+            <li>Ayudo a la formacion de empleados</li>
+            <li>Trabajo para proporcionar un ambiente limpio en la oficina</li>
+            <button id="boton" onclick="ocultar();">Mostrar Menos</button>
+        </div>
+    </section>
+    <script src="index.js"></script>
+</body>
+</html>
