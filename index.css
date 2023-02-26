@@ -41,7 +41,6 @@ section i{
 }
 
 .p-personales{
-    display: flex;
     justify-content: left;
 }
 
