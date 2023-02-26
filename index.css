@@ -41,7 +41,8 @@ section i{
 }
 
 .p-personales{
-    justify-content: left;
+    
+    justify-self:  left;
 }
 
 section p, li{
