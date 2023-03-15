@@ -15,11 +15,10 @@ header i{
     align-self: center;
 }
 
-
 aside{
     width: 350px;
-    height: max-content;
-    background-color: navy;
+    height: 1000px;
+    background-color: aquamarine;
     color: aliceblue;
     float: left;
     text-align: center;
@@ -41,11 +40,9 @@ section i{
 }
 
 .p-personales{
-    
     justify-self:  left;
 }
 
-section p, li{
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
+section h3{
+    background-color: aquamarine;
 }
